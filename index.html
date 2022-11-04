@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Formulário</title>
 </head>
 <body>
 
@@ -343,13 +343,34 @@
 
                 <fieldset>
                     <legend>Esportes favoritos<legend>
-                        <input type="checkbox">
-                        <label for="ifut">Futebol<label>
+                        <label for="ifut">Futebol<label></label>
+                        <input type="checkbox" name="futebol" id="ifut">
                         
+                        <label for="ibas">Basquete<label></label>
+                        <input type="checkbox" name="basquete" id="ibas">
+                        
+                        <label for="ivol">Volei<label></label>
+                        <input type="checkbox" name="volei" id="ivol">
+
+                        <label for="isurf">Surf<label></label>
+                        <input type="checkbox" name="surf" id="isurf">
+
+                        Outro<textarea name="Outro" id="Outro" cols="10" rows="2"></textarea>
                 </fieldset>
 
                 <fieldset>
                     <legend>Comidas favoritas</legend>
+                    
+                    <label for="ilas">Lasanha</label>
+                    <input type="checkbox" name="lasanha" id="ilas">
+
+                    <label for="iarr">Arroz e feijão</label>
+                    <input type="checkbox" name="arroz-e-feijao" id="iarr">
+
+                    <label for="ipan">Panqueca</label>
+                    <input type="checkbox" name="panqueca" id="ipan">
+
+                    <textarea name="outro" id="ioutro" cols="10" rows="2"></textarea>
                 </fieldset>
 
                 <input type="submit" value="Enviar">
